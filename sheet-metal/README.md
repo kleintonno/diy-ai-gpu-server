@@ -15,7 +15,7 @@ Each part comes as:
 - `.dxf` for cutting
 - `.svg` preview
 - `_holes.csv` hole table with the purpose of each hole
-- `.step` 3D file (the fan-panel STEP follows)
+- `.step` 3D file
 
 ## Notes for the cutting service
 
@@ -37,7 +37,8 @@ Each part comes as:
 - **Printed parts:** −16 printed standoffs 8×10, −4 printed PSU holders. The 6th-GPU holder shrinks to a small bracket stop.
 - **Standoffs:** +16 M3 × 10 mm brass standoffs (female/female) with M3×6 screws from below.
 - **Panels to frame:** +30 M4×8 (DIN 7984) with T-nuts: 22 for the base plate, 4 per fan panel.
-- **Fans:** fans are mounted to the panels with M4×35 + nut. Mainboard, PSUs and the 6th GPU sit 3 mm higher; all cable routes are re-checked.
+- **Fans:** fans are mounted to the panels with M4×35 + nut.
+- **Top-front brackets:** the two front corner brackets of the top frame move from below the front member into the horizontal top-frame corner (front member to side member), so they don't block the upper fan row. Mainboard, PSUs and the 6th GPU sit 3 mm higher; all cable routes are re-checked.
 - **PSUs:** screwed from below through the base plate with their own #6-32 screws. The large cut-out under each PSU lets the exhaust out (the ZEUS blows out of its ATX rear face, which points down) and leaves room for the power plug.
 
 **Assembly order (new build only):** the one-piece base plate has to go onto the base frame **before** the posts, mid frame and top frame are joined. It does not fit through the mid-frame opening.
