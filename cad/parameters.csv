@@ -1,0 +1,170 @@
+name,unit,expression,value,comment,favorite
+B,mm,430 mm,430,Außenbreite X,false
+T,mm,500 mm,500,Außentiefe Y,false
+H,mm,571 mm,571,"Außenhöhe Z (14 HE = 622,3 inkl. Füße; 571 + 50 = 621)",false
+P,mm,20 mm,20,Profilkantenlänge (20×20 I-Typ Nut 5),false
+nut_b,mm,5 mm,5,Nutbreite (I-Typ Nut 5),false
+nut_t,mm,6 mm,6,Nuttiefe,false
+kern_d,mm,4.2 mm,4.2,Kernbohrung Ø,false
+z_zw1,mm,0 mm,0,Zwischenrahmen 1 Unterkante,false
+z_zw2,mm,z_zw1 + P + 271,291,Zwischenrahmen 2 Unterkante (Board-Ebene 271 hoch),false
+z_de,mm,H - P,551,Deckelrahmen Unterkante,false
+bt_y1,mm,30 mm,30,Board-Träger 1 Y (Platzhalter),false
+bt_y2,mm,130 mm,130,Board-Träger 2 Y (Platzhalter),false
+bt_y3,mm,230 mm,230,Board-Träger 3 Y (Platzhalter),false
+bt_y4,mm,330 mm,330,Board-Träger 4 Y (Platzhalter),false
+rt_y1,mm,rg_y + 5 - P/2,237,Riser-Träger 1 Y (unter den vorderen Riser-Bolzen),false
+rt_y2,mm,g_hinten - 12,358,Riser-Träger 2 Y (unter den hinteren Bolzen und dem Kamm),false
+gs_y,mm,gpu_y - 7,58,"GPU-Stütze vorne Y (trägt Auflagen, GPU1-Riser vorne und GPU1-Slotblechhalter)",false
+sb_z,mm,gpu_z + 95,436.6,GPU-Slotblech-Schiene Z,false
+gss_z,mm,gpu_z + 85,426.6,GPU-Seitenstreben Z,false
+lgv_z1,mm,gpu_z + 32.5,374.1,Lüfterschiene GPU vorne unten Z,false
+lgv_z2,mm,gpu_z + 137.5,479.1,Lüfterschiene GPU vorne oben Z,false
+lbh_z1,mm,z_zw1 + 60,60,Anschlagschiene hinten unten Z,false
+lbh_z2,mm,z_zw1 + P + psu_t - P,180,Anschlagschiene hinten oben Z (NT-Oberkante),false
+nic_z,mm,z_zw1 + 130,130,NIC-Slotblech-Schiene Z,false
+w_l,mm,20 mm,20,Winkel Schenkellänge,false
+w_s,mm,4 mm,4,Winkel Wandstärke,false
+slot_t,mm,20.32 mm,20.32,Slot-Teilung,false
+slot_x0,mm,P + 2,22,Slot-Raster Start X (Slot 17-19 = GPU5 endet vor der rechten Seitenstrebe),false
+slot_n,,19,19,Anzahl Slot-Positionen,false
+psu_b,mm,150 mm,150,Netzteil Breite 150 (X),false
+psu_t,mm,180 mm,180,"Netzteil Länge 180 (jetzt hochkant, Z)",false
+psu_h,mm,86 mm,86,Netzteil Höhe 86 (jetzt Tiefe Y),false
+psu_x1,mm,P + 15,35,Netzteil 1 X (links),false
+psu_x2,mm,B - P - 15 - psu_b,245,Netzteil 2 X (rechts),false
+psu_y,mm,T - P - psu_h,394,Netzteile Y vorne (hinten bündig),false
+sb_h,mm,10 mm,10,Abstandsbolzen Höhe,false
+sb_d,mm,8 mm,8,Abstandsbolzen Ø,false
+mb_b,mm,305 mm,305,Mainboard X,false
+mb_t,mm,330 mm,330,Mainboard Y,false
+mb_d,mm,1.6 mm,1.6,Platinendicke,false
+mb_x,mm,P,20,Mainboard X-Lage,false
+mb_y,mm,P,20,Mainboard Y-Lage,false
+mb_z,mm,z_zw1 + P + sb_h,30,Mainboard Unterkante Z,false
+sbm_x1,mm,30 mm,30,Board-Bolzen X1 (Platzhalter),false
+sbm_x2,mm,170 mm,170,Board-Bolzen X2 (Platzhalter),false
+sbm_x3,mm,315 mm,315,Board-Bolzen X3 (Platzhalter),false
+cpu_x,mm,158 mm,158,CPU-Sockel Mitte X (Layoutbild),false
+cpu_y,mm,260 mm,260,CPU-Sockel Mitte Y (Layoutbild),false
+sock_b,mm,59 mm,59,SP3-Sockel X,false
+sock_t,mm,76 mm,76,SP3-Sockel Y,false
+sock_h,mm,6 mm,6,SP3-Sockel Höhe (Platzhalter),false
+dimm_l,mm,133 mm,133,RDIMM Länge Y,false
+dimm_b,mm,7 mm,7,RDIMM Dicke X,false
+dimm_h,mm,31 mm,31,RDIMM Höhe Z,false
+dimm_p,mm,6.4 mm,6.4,DIMM-Slot-Teilung (Layoutbild),false
+dimm_a,mm,52.5 mm,52.5,1. DIMM-Slot Abstand zur Sockelmitte X (Layoutbild),false
+kk_b,mm,150 mm,150,"Kühlkörper Länge (quer zum Luftstrom, jetzt Y)",false
+kk_t,mm,52 mm,52,"Kühlkörper Tiefe (in Luftrichtung, jetzt X)",false
+kk_h,mm,165 mm,165,Kühlkörper Z,false
+kk_z,mm,mb_z + 8,38,Kühlkörper Unterkante Z,false
+f140,mm,140 mm,140,Lüfter 140,false
+f_d,mm,25 mm,25,Lüfterdicke,false
+f120,mm,120 mm,120,Lüfter 120,false
+nic_x,mm,pcie8_x - nic_s/2,208,NIC X (PCIE8),false
+nic_l,mm,120 mm,120,NIC Länge Y (Platzhalter),false
+nic_h,mm,69 mm,69,"NIC Höhe Z (Platzhalter, LP)",false
+nic_s,mm,2 mm,2,NIC Platinendicke+Bauteile (Platzhalter),false
+r_b,mm,60 mm,60,Riser-Platine X (Platzhalter),false
+r_t,mm,100 mm,100,Riser-Platine Y (Platzhalter),false
+r6_x,mm,335 mm,335,Riser 6 X,false
+r6_y,mm,240 mm,240,Riser 6 Y (Platzhalter),false
+m2_x,mm,350 mm,350,Quad-M.2-Karte X,false
+m2_b,mm,20 mm,20,Quad-M.2 Dicke X,false
+m2_y,mm,80 mm,80,Quad-M.2 Y,false
+m2_l,mm,270 mm,270,Quad-M.2 Länge Y,false
+m2_z,mm,mb_z + 10,40,Quad-M.2 Unterkante Z,false
+m2_h,mm,120 mm,120,Quad-M.2 Höhe Z,false
+rg_y,mm,g_hinten - 3 - rg_l,242,GPU-Riser Y (Hinterkante 3 mm vor dem Slotblech),false
+gpu_b,mm,61 mm,61,RTX 4090 X,false
+gpu_t,mm,305 mm,305,RTX 4090 Länge Y (gemessen),false
+gpu_h,mm,125 mm,125,RTX 4090 Z,false
+gpu_y,mm,65 mm,65,GPU Vorderkante Y (20 mm hinter den Frontlüftern),false
+gpu_z,mm,z_zw2 + P + rb_h + mb_d + 11,341.6,GPU Unterkante Z (Träger + Bolzen + Platine + Slot),false
+g7_b,mm,gpu_b,61,GPU5 X (jetzt RTX 4090 = gpu_b),false
+g7_t,mm,gpu_t,305,GPU5 Y (jetzt RTX 4090 = gpu_t),false
+g7_h,mm,gpu_h,125,GPU5 Z (jetzt RTX 4090 = gpu_h),false
+g_hinten,mm,gpu_y + gpu_t,370,GPU Slotblech-Ebene Y (innen),false
+hp_z,mm,gpu_z + gpu_h + 40,506.6,12VHPWR-Bogen Oberkante Z,false
+fv_y,mm,P,20,Frontlüfter Y,false
+fv_z,mm,gpu_z + 35,376.6,Frontlüfter Z,false
+fv_x1,mm,25 mm,25,Frontlüfter 1 X,false
+fv_x2,mm,155 mm,155,Frontlüfter 2 X,false
+fv_x3,mm,285 mm,285,Frontlüfter 3 X,false
+kamm_h,mm,30 mm,30,Slotblech-Anschlag (Kamm) Höhe,false
+auf_h,mm,gpu_z - z_zw2 - P,30.600000000000023,GPU-Auflage Höhe (bis Kartenunterkante),false
+hp_d,mm,10 mm,10,12VHPWR-Kabelbündel Ø,false
+hp_r,mm,15 mm,15,12VHPWR-Biegeradius,false
+kamm_s,mm,2.5 mm,2.5,Kamm-Schlitzbreite,false
+iec_b,mm,28 mm,28,Kaltgerätebuchse B,false
+iec_h,mm,20 mm,20,Kaltgerätebuchse H,false
+nic_bh,mm,79.2 mm,79.2,"NIC-Slotblech Höhe (LP 79,2 / FH 120)",false
+sb_ins_d,mm,4 mm,4,Bolzen: Bohrung M3-Gewindeeinsatz Ø,false
+sb_ins_t,mm,5.7 mm,5.7,Bolzen: Tiefe Gewindeeinsatz,false
+sb_m4,mm,4.5 mm,4.5,Bolzen: M4-Durchgang Ø,false
+eh_w,mm,4 mm,4,NT-Eckhalter Wandstärke,false
+nt_y1,mm,psu_y,394,NT-Tragstrebe 1 Y (vorne unter NT),false
+nt_y2,mm,T - 2*P,460,NT-Tragstrebe 2 Y (hinten unter NT),false
+nh_h,mm,40 mm,40,NT-Halter Höhe,false
+nh_l,mm,34 mm,34,NT-Halter Länge Y (Wange),false
+nh_f,mm,40 mm,40,NT-Halter Frontwand Länge X,false
+nt_fan,mm,135 mm,135,NT-Lüfter Ø,false
+dimm_g,mm,80.6 mm,80.6,5. DIMM-Slot (äußere Gruppe) Abstand zur Sockelmitte X (Layoutbild),false
+dslot_l,mm,146 mm,146,DIMM-Slot Länge,false
+dslot_b,mm,6 mm,6,DIMM-Slot Breite,false
+dslot_h,mm,6 mm,6,DIMM-Slot Höhe,false
+ss_h,mm,12 mm,12,SlimSAS-Buchse Höhe (senkrecht),false
+ss_l,mm,20 mm,20,SlimSAS-Buchse Länge,false
+ss_w,mm,8 mm,8,SlimSAS-Buchse Breite,false
+ssA_x,mm,36 mm,36,SlimSAS-Gruppe A (hinten links) X,false
+ssA_y,mm,305 mm,305,SlimSAS-Gruppe A Y,false
+ssA_dx,mm,12.7 mm,12.7,Gruppe A Teilung X,false
+ssA_dy,mm,25 mm,25,Gruppe A Teilung Y,false
+ssB_x,mm,94 mm,94,SlimSAS-Gruppe B (Mitte links) X,false
+ssB_y,mm,143 mm,143,SlimSAS-Gruppe B Y (1. Buchse),false
+ssB_dy,mm,13 mm,13,Gruppe B Teilung Y,false
+ssC_x,mm,265.6 mm,265.6,SlimSAS-Gruppe C (hinten rechts) X,false
+ssC_y,mm,289 mm,289,SlimSAS-Gruppe C Y,false
+ssC_dx,mm,11.4 mm,11.4,Gruppe C Teilung X,false
+ssC_dy,mm,34 mm,34,Gruppe C Teilung Y,false
+pcie7_x,mm,190 mm,190,PCIE7 Mitte X,false
+pcie8_x,mm,209 mm,209,PCIE8 Mitte X,false
+pcie_y0,mm,26 mm,26,PCIe-Slots Beginn Y,false
+pcie_l,mm,84 mm,84,PCIe-Slot Länge,false
+fuss_h,mm,50 mm,50,Überstand der Eckstützen unten (Füße),false
+iec_t,mm,40 mm,40,Kaltgerätestecker Länge unter dem NT (gerade Ausführung),false
+iec_sb,mm,32 mm,32,Kaltgerätestecker Breite,false
+iec_st,mm,24 mm,24,Kaltgerätestecker Tiefe,false
+rg_b,mm,30 mm,30,GPU-Riser C-Payne MCIO gen5 x8/x16 bottom: Breite X,false
+rg_l,mm,125 mm,125,GPU-Riser: Länge Y,false
+rb_h,mm,18 mm,18,Riser-Abstandsbolzen Höhe (Platz für MCIO-Stecker unten),false
+slot_off,mm,10 mm,10,PCIe-Slot-Mitte: Abstand von der Backplate-Fläche der Karte (Platzhalter),false
+mc_l,mm,26 mm,26,MCIO-8i-Buchse Länge Y (Platzhalter),false
+mc_w,mm,12 mm,12,MCIO-8i-Buchse Tiefe X (Platzhalter),false
+mc_h,mm,7 mm,7,MCIO-8i-Buchse Höhe unter der Platine (Platzhalter),false
+pin6_l,mm,15 mm,15,PCIe-6-Pin-Buchse Riser Länge Y (Platzhalter),false
+pin6_b,mm,9 mm,9,PCIe-6-Pin-Buchse Riser Breite X (Platzhalter),false
+pin6_h,mm,10 mm,10,PCIe-6-Pin-Buchse Riser Höhe (Platzhalter),false
+kamm_d,mm,7 mm,7,Slotblech-Anschlag (Kamm) Tiefe Y,false
+kamm_y,mm,g_hinten + 1,371,"Slotblech-Anschlag (Kamm) Y, direkt hinter den Slotblechen",false
+g6t_h,mm,6 mm,6,GPU6-Halter: Plattendicke,false
+g6_x,mm,B - P - 5 - gpu_b,344,GPU6 X (rechts neben dem Board),false
+g6_z,mm,P + g6t_h + rb_h + mb_d + 11,56.6,GPU6 Unterkante Z,false
+hp6_z,mm,g6_z + gpu_h + 40,221.6,GPU6 12VHPWR-Bogen Oberkante Z,false
+he,mm,44.45 mm,44.45,Höheneinheit,false
+ohr_u0,,5,5,Rack-Ohr: unterste HE (gezählt ab Fußunterkante),false
+ohr_n,,3,3,Rack-Ohr: Höhe in HE,false
+ohr_s,mm,5 mm,5,Rack-Ohr: Wandstärke,false
+rack_b,mm,482.6 mm,482.6,19-Zoll-Frontbreite,false
+rack_l,mm,465.1 mm,465.1,19-Zoll-Lochabstand,false
+rack_d,mm,7 mm,7,Rack-Ohr: Bohrung Ø (M6),false
+g1_x,mm,P + 1,21,"GPU1 X (um 180° gedreht, Backplate links)",false
+rg1_y,mm,gpu_y + 3,68,"GPU1-Riser Y (gedreht, vorne)",false
+rt_y0,mm,rg1_y + rg_l - 5 - P/2,178,Riser-Träger GPU1 Y (unter den hinteren Bolzen des GPU1-Risers),false
+g6_y,mm,P + 2,22,"GPU6 Vorderkante Y (Board-Ebene, ohne Frontlüfter)",false
+g6_hinten,mm,g6_y + gpu_t,327,GPU6 Slotblech-Ebene Y,false
+rg6_y,mm,g6_hinten - 3 - rg_l,199,GPU6-Riser Y,false
+gpu_luft,mm,(B - 2*P - 1 mm - 5*gpu_b)/5,16.8,Luftspalt vor den GPU-Lüftern (zwischen den Karten und vor GPU1 zur linken Wand),false
+gpu_x0,mm,P + gpu_luft,36.8,GPU1 X (Lüfterseite),false
+gpu_p,mm,gpu_b + gpu_luft,77.8,GPU-Raster X,false

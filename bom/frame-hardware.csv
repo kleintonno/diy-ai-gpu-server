@@ -1,0 +1,10 @@
+qty,item,variant_length,example_supplier,supplier_article,note
+4,"Aluminium extrusion 20x20 light, I-type slot 5, cut to length",621 mm,Dold Mechatronik (DE),62002-Z,corner posts
+21,"Aluminium extrusion 20x20 light, I-type slot 5, cut to length",390 mm,Dold Mechatronik (DE),62002-Z,all X members
+8,"Aluminium extrusion 20x20 light, I-type slot 5, cut to length",460 mm,Dold Mechatronik (DE),62002-Z,all Y members
+58,Bracket 20 I-type slot 5 incl. M4 set (2× M4×8 + 2× T-nut),,Dold Mechatronik (DE),61951-BS,every joint
+8,End cap 20 I-type slot 5,,Dold Mechatronik (DE),61302-1,post ends
+86,"T-nut with web I-type slot 5, M4",M4,Dold Mechatronik (DE),61326-VK,"standoffs, holders, fans, rack ears (+ spares)"
+12,"DIN 7984 low-head socket screw, 8.8 zinc",M4x30,Dold Mechatronik (DE),DIN7984-4x30,front fans
+26,"DIN 7984 low-head socket screw, 8.8 zinc",M4x12,Dold Mechatronik (DE),DIN7984-4x12,printed holders
+8,"DIN 7984 low-head socket screw, 8.8 zinc",M4x10,Dold Mechatronik (DE),DIN7984-4x10,rack ears (optional)

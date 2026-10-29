@@ -1,0 +1,34 @@
+extrusion,t_nuts
+Base front,2
+Base left,8
+Base rear,2
+Base right,8
+Board rail 1,5
+Board rail 2,5
+Board rail 3,7
+Board rail 4,7
+Front fan rail lower,8
+Front fan rail upper,8
+GPU bracket rail,2
+GPU front support,12
+GPU side rail left,3
+GPU side rail right,3
+Mid frame front,2
+Mid frame left,5
+Mid frame rear,2
+Mid frame right,5
+NIC rail,2
+PSU rail 1,10
+PSU rail 2,2
+Post S1,10
+Post S2,10
+Post S3,9
+Post S4,9
+Rear rail lower,2
+Rear rail upper,2
+Riser rail 1,12
+Riser rail 2,18
+Top front,2
+Top left,2
+Top rear,2
+Top right,2

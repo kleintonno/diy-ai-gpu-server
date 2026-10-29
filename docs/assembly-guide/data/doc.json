@@ -1,0 +1,1194 @@
+{
+ "stand": "2026-10-29",
+ "B": 430,
+ "T": 500,
+ "H": 621,
+ "luft": "16,8",
+ "ueberstand": 15,
+ "gewicht_rahmen": "8",
+ "n": {
+  "bolzen10": 16,
+  "bolzen18": 20,
+  "nutensteine_gesamt": 188
+ },
+ "nuts": [
+  {
+   "profil": "Base front",
+   "anzahl": 2
+  },
+  {
+   "profil": "Base left",
+   "anzahl": 8
+  },
+  {
+   "profil": "Base rear",
+   "anzahl": 2
+  },
+  {
+   "profil": "Base right",
+   "anzahl": 8
+  },
+  {
+   "profil": "Board rail 1",
+   "anzahl": 5
+  },
+  {
+   "profil": "Board rail 2",
+   "anzahl": 5
+  },
+  {
+   "profil": "Board rail 3",
+   "anzahl": 7
+  },
+  {
+   "profil": "Board rail 4",
+   "anzahl": 7
+  },
+  {
+   "profil": "Front fan rail lower",
+   "anzahl": 8
+  },
+  {
+   "profil": "Front fan rail upper",
+   "anzahl": 8
+  },
+  {
+   "profil": "GPU bracket rail",
+   "anzahl": 2
+  },
+  {
+   "profil": "GPU front support",
+   "anzahl": 12
+  },
+  {
+   "profil": "GPU side rail left",
+   "anzahl": 3
+  },
+  {
+   "profil": "GPU side rail right",
+   "anzahl": 3
+  },
+  {
+   "profil": "Mid frame front",
+   "anzahl": 2
+  },
+  {
+   "profil": "Mid frame left",
+   "anzahl": 5
+  },
+  {
+   "profil": "Mid frame rear",
+   "anzahl": 2
+  },
+  {
+   "profil": "Mid frame right",
+   "anzahl": 5
+  },
+  {
+   "profil": "NIC rail",
+   "anzahl": 2
+  },
+  {
+   "profil": "PSU rail 1",
+   "anzahl": 10
+  },
+  {
+   "profil": "PSU rail 2",
+   "anzahl": 2
+  },
+  {
+   "profil": "Post S1",
+   "anzahl": 10
+  },
+  {
+   "profil": "Post S2",
+   "anzahl": 10
+  },
+  {
+   "profil": "Post S3",
+   "anzahl": 9
+  },
+  {
+   "profil": "Post S4",
+   "anzahl": 9
+  },
+  {
+   "profil": "Rear rail lower",
+   "anzahl": 2
+  },
+  {
+   "profil": "Rear rail upper",
+   "anzahl": 2
+  },
+  {
+   "profil": "Riser rail 1",
+   "anzahl": 12
+  },
+  {
+   "profil": "Riser rail 2",
+   "anzahl": 18
+  },
+  {
+   "profil": "Top front",
+   "anzahl": 2
+  },
+  {
+   "profil": "Top left",
+   "anzahl": 2
+  },
+  {
+   "profil": "Top rear",
+   "anzahl": 2
+  },
+  {
+   "profil": "Top right",
+   "anzahl": 2
+  }
+ ],
+ "steps": [
+  {
+   "nr": 3,
+   "titel": "Base frame",
+   "svg": "03-base-frame.svg",
+   "teile": [
+    {
+     "code": "A",
+     "name": "Extrusion 390 mm",
+     "menge": 8
+    },
+    {
+     "code": "B",
+     "name": "Extrusion 460 mm",
+     "menge": 2
+    },
+    {
+     "code": "W",
+     "name": "Bracket + M4 set",
+     "menge": 20
+    }
+   ],
+   "hinweis": "Build on a flat surface. Tighten the brackets lightly, measure both diagonals (equal length), then tighten fully."
+  },
+  {
+   "nr": 4,
+   "titel": "Corner posts with feet",
+   "svg": "04-posts.svg",
+   "teile": [
+    {
+     "code": "C",
+     "name": "Extrusion 621 mm",
+     "menge": 4
+    },
+    {
+     "code": "K",
+     "name": "End cap",
+     "menge": 4
+    }
+   ],
+   "hinweis": "The posts reach 50 mm below the base frame – these are the feet. Fit an end cap at the bottom and top."
+  },
+  {
+   "nr": 5,
+   "titel": "Mid frame and riser rails",
+   "svg": "05-mid-frame.svg",
+   "teile": [
+    {
+     "code": "A",
+     "name": "Extrusion 390 mm",
+     "menge": 6
+    },
+    {
+     "code": "B",
+     "name": "Extrusion 460 mm",
+     "menge": 2
+    },
+    {
+     "code": "W",
+     "name": "Bracket + M4 set",
+     "menge": 16
+    }
+   ],
+   "hinweis": "Top of the mid frame at Z = 311 mm (floor to top edge). Riser rails and GPU support run in X."
+  },
+  {
+   "nr": 6,
+   "titel": "GPU level",
+   "svg": "06-gpu-level.svg",
+   "teile": [
+    {
+     "code": "B",
+     "name": "Extrusion 460 mm",
+     "menge": 2
+    },
+    {
+     "code": "A",
+     "name": "Extrusion 390 mm",
+     "menge": 5
+    },
+    {
+     "code": "W",
+     "name": "Bracket + M4 set",
+     "menge": 14
+    }
+   ],
+   "hinweis": "The front fan rails carry the three front fans later – do not forget the T-nuts."
+  },
+  {
+   "nr": 7,
+   "titel": "Top frame",
+   "svg": "07-top-frame.svg",
+   "teile": [
+    {
+     "code": "A",
+     "name": "Extrusion 390 mm",
+     "menge": 2
+    },
+    {
+     "code": "B",
+     "name": "Extrusion 460 mm",
+     "menge": 2
+    },
+    {
+     "code": "W",
+     "name": "Bracket + M4 set",
+     "menge": 8
+    },
+    {
+     "code": "K",
+     "name": "End cap",
+     "menge": 4
+    }
+   ],
+   "hinweis": "Fit the remaining four end caps on top of the posts."
+  },
+  {
+   "nr": 8,
+   "titel": "Mount the printed parts",
+   "svg": "08-printed-parts.svg",
+   "teile": [
+    {
+     "code": "D",
+     "name": "Standoff 8×10",
+     "menge": 16
+    },
+    {
+     "code": "F",
+     "name": "PSU holder",
+     "menge": 4
+    },
+    {
+     "code": "E",
+     "name": "Standoff 8×18",
+     "menge": 20
+    },
+    {
+     "code": "H",
+     "name": "GPU rest",
+     "menge": 5
+    },
+    {
+     "code": "G",
+     "name": "Bracket comb",
+     "menge": 3
+    },
+    {
+     "code": "M4",
+     "name": "M4×12",
+     "menge": 24
+    }
+   ],
+   "hinweis": "Standoffs, PSU holders, comb and GPU rests go onto the pre-loaded T-nuts. How the standoffs are fixed to the extrusion is still a placeholder in the model (M4 from below / glued) – decide before printing."
+  },
+  {
+   "nr": 9,
+   "titel": "Power supplies",
+   "svg": "09-psus.svg",
+   "teile": [
+    {
+     "code": "1",
+     "name": "ZEUS 1650R",
+     "menge": 2
+    },
+    {
+     "code": "P",
+     "name": "IEC plug",
+     "menge": 2
+    }
+   ],
+   "hinweis": "Insert upright: power inlet down, fan to the rear, modular sockets on top. PSU 1 left, PSU 2 right."
+  },
+  {
+   "nr": 10,
+   "titel": "Mainboard, CPU, cooler, RAM",
+   "svg": "10-mainboard.svg",
+   "teile": [
+    {
+     "code": "2",
+     "name": "Mainboard",
+     "menge": 1
+    },
+    {
+     "code": "6",
+     "name": "M.2 riser",
+     "menge": 1
+    },
+    {
+     "code": "6",
+     "name": "Quad M.2",
+     "menge": 1
+    },
+    {
+     "code": "3",
+     "name": "NH-U14S",
+     "menge": 1
+    },
+    {
+     "code": "4",
+     "name": "RDIMM",
+     "menge": 8
+    },
+    {
+     "code": "5",
+     "name": "NIC 40G",
+     "menge": 1
+    }
+   ],
+   "hinweis": "Board rotated 180° (I/O to the front). Cooler rotated 90°: airflow to the right (+X). RDIMMs in the outer slot of each channel. NIC in PCIE8. Wear the ESD strap!"
+  },
+  {
+   "nr": 11,
+   "titel": "SlimSAS cables on the board",
+   "svg": "11-slimsas-cables.svg",
+   "teile": [
+    {
+     "code": "S",
+     "name": "SlimSAS 8i 500",
+     "menge": 12
+    }
+   ],
+   "hinweis": "Plug in straight, do not bend the first 45 mm, bend radius ≥ 25 mm. A1/A2 run diagonally out of the frame to the left, up the outside and back over the mid frame to GPU1.",
+   "tabelle": {
+    "spalten": [
+     "Port",
+     "Target",
+     "Route mm",
+     "Spare mm"
+    ],
+    "zeilen": [
+     [
+      "A1",
+      "GPU1 · riser socket 1",
+      "372",
+      "128"
+     ],
+     [
+      "A2",
+      "GPU1 · riser socket 2",
+      "369",
+      "131"
+     ],
+     [
+      "A3",
+      "GPU2 · riser socket 1",
+      "357",
+      "143"
+     ],
+     [
+      "A4",
+      "GPU2 · riser socket 2",
+      "353",
+      "147"
+     ],
+     [
+      "B1",
+      "GPU3 · riser socket 1",
+      "453",
+      "47"
+     ],
+     [
+      "B4",
+      "GPU3 · riser socket 2",
+      "460",
+      "40"
+     ],
+     [
+      "C1",
+      "GPU4 · riser socket 1",
+      "357",
+      "143"
+     ],
+     [
+      "C2",
+      "GPU4 · riser socket 2",
+      "357",
+      "143"
+     ],
+     [
+      "C3",
+      "GPU5 · riser socket 1",
+      "356",
+      "144"
+     ],
+     [
+      "C4",
+      "GPU5 · riser socket 2",
+      "356",
+      "144"
+     ],
+     [
+      "B2",
+      "M.2 riser socket 1 (quad M.2 option)",
+      "453",
+      "47"
+     ],
+     [
+      "B3",
+      "M.2 riser socket 2 (quad M.2 option)",
+      "464",
+      "36"
+     ],
+     [
+      "B2",
+      "GPU6 · riser socket 1 (6th GPU option)",
+      "411",
+      "89"
+     ],
+     [
+      "B3",
+      "GPU6 · riser socket 2 (6th GPU option)",
+      "434",
+      "66"
+     ]
+    ]
+   }
+  },
+  {
+   "nr": 12,
+   "titel": "Fit the risers",
+   "svg": "12-risers.svg",
+   "teile": [
+    {
+     "code": "7",
+     "name": "C-Payne riser",
+     "menge": 5
+    }
+   ],
+   "hinweis": "C-Payne risers with the SlimSAS sockets facing left, onto the standoffs (M3). Plug the cables in horizontally from the left."
+  },
+  {
+   "nr": 13,
+   "titel": "Graphics cards",
+   "svg": "13-gpus.svg",
+   "teile": [
+    {
+     "code": "8",
+     "name": "RTX 4090",
+     "menge": 5
+    }
+   ],
+   "hinweis": "All cards the same way: fans to the left, bracket at the rear in the comb, front end on the GPU rest. 12V-2x6 connector on top."
+  },
+  {
+   "nr": 14,
+   "titel": "Power cables",
+   "svg": "14-power-cables.svg",
+   "teile": [
+    {
+     "code": "P",
+     "name": "PSU cable",
+     "menge": 13
+    }
+   ],
+   "hinweis": "PSU 1 feeds board, CPU and GPU1–3, PSU 2 feeds GPU4–6. Push 12V-2x6 plugs fully home (click), do not bend them sideways.",
+   "tabelle": {
+    "spalten": [
+     "PSU",
+     "Cable",
+     "Target",
+     "Route mm",
+     "Cable mm",
+     "Spare"
+    ],
+    "zeilen": [
+     [
+      "PSU 1",
+      "24-Pin",
+      "24-pin mainboard",
+      "434",
+      "600",
+      "166"
+     ],
+     [
+      "PSU 1",
+      "EPS 4+4",
+      "EPS CPU 1",
+      "578",
+      "750",
+      "172"
+     ],
+     [
+      "PSU 1",
+      "EPS 4+4",
+      "EPS CPU 2",
+      "579",
+      "750",
+      "171"
+     ],
+     [
+      "PSU 1",
+      "12V-2x6",
+      "GPU1 (12V-2x6)",
+      "463",
+      "600",
+      "137"
+     ],
+     [
+      "PSU 1",
+      "12V-2x6",
+      "GPU2 (12V-2x6)",
+      "443",
+      "600",
+      "157"
+     ],
+     [
+      "PSU 1",
+      "12V-2x6",
+      "GPU3 (12V-2x6)",
+      "452",
+      "600",
+      "148"
+     ],
+     [
+      "PSU 2",
+      "12V-2x6",
+      "GPU4 (12V-2x6)",
+      "443",
+      "600",
+      "157"
+     ],
+     [
+      "PSU 2",
+      "12V-2x6",
+      "GPU5 (12V-2x6)",
+      "461",
+      "600",
+      "139"
+     ],
+     [
+      "PSU 2",
+      "12V-2x6",
+      "GPU6 (12V-2x6) · optional",
+      "246",
+      "600",
+      "354"
+     ],
+     [
+      "PSU 1",
+      "PCIe 6+2",
+      "riser 1 (6-Pin)",
+      "277",
+      "600",
+      "323"
+     ],
+     [
+      "PSU 1",
+      "PCIe 6+2",
+      "riser 2 (6-Pin)",
+      "277",
+      "600",
+      "323"
+     ],
+     [
+      "PSU 1",
+      "PCIe 6+2",
+      "riser 3 (6-Pin)",
+      "301",
+      "600",
+      "299"
+     ],
+     [
+      "PSU 2",
+      "PCIe 6+2",
+      "riser 4 (6-Pin)",
+      "282",
+      "600",
+      "318"
+     ],
+     [
+      "PSU 2",
+      "PCIe 6+2",
+      "riser 5 (6-Pin)",
+      "382",
+      "600",
+      "218"
+     ]
+    ]
+   }
+  },
+  {
+   "nr": 15,
+   "titel": "Front fans",
+   "svg": "15-front-fans.svg",
+   "teile": [
+    {
+     "code": "9",
+     "name": "Fan 120",
+     "menge": 3
+    },
+    {
+     "code": "M4",
+     "name": "M4×30",
+     "menge": 12
+    }
+   ],
+   "hinweis": "Airflow to the rear (frame arrow pointing inwards)."
+  },
+  {
+   "nr": 16,
+   "titel": "Options",
+   "svg": "16-options.svg",
+   "teile": [
+    {
+     "code": "10",
+     "name": "Rack ear",
+     "menge": 2
+    },
+    {
+     "code": "8",
+     "name": "RTX 4090",
+     "menge": 1
+    },
+    {
+     "code": "7",
+     "name": "C-Payne riser",
+     "menge": 1
+    },
+    {
+     "code": "11",
+     "name": "GPU6 holder",
+     "menge": 1
+    },
+    {
+     "code": "E",
+     "name": "Standoff 8×18",
+     "menge": 4
+    },
+    {
+     "code": "S",
+     "name": "SlimSAS 8i 500",
+     "menge": 2
+    },
+    {
+     "code": "P",
+     "name": "PSU cable",
+     "menge": 1
+    },
+    {
+     "code": "M4",
+     "name": "M4×10",
+     "menge": 8
+    }
+   ],
+   "hinweis": "Rack ears are retention only – the case stands on rails or a shelf. 6th GPU: remove the quad M.2 card and its riser, move B2/B3 to the GPU6 riser."
+  }
+ ],
+ "teile": [
+  {
+   "code": "A",
+   "name": "Extrusion 390 mm",
+   "menge": 21,
+   "detail": "390 mm cut, 20x20 I-type slot 5"
+  },
+  {
+   "code": "B",
+   "name": "Extrusion 460 mm",
+   "menge": 8,
+   "detail": "460 mm cut"
+  },
+  {
+   "code": "C",
+   "name": "Extrusion 621 mm",
+   "menge": 4,
+   "detail": "621 mm cut (571 + 50 mm foot)"
+  },
+  {
+   "code": "W",
+   "name": "Bracket + M4 set",
+   "menge": 58,
+   "detail": "20x20x20, incl. 2× M4×8 + 2× T-nut"
+  },
+  {
+   "code": "D",
+   "name": "Standoff 8×10",
+   "menge": 16,
+   "detail": "board + M.2 riser standoffs"
+  },
+  {
+   "code": "E",
+   "name": "Standoff 8×18",
+   "menge": 24,
+   "detail": "GPU riser standoffs · 4 optional"
+  },
+  {
+   "code": "F",
+   "name": "PSU holder",
+   "menge": 4,
+   "detail": "PETG, 4 different"
+  },
+  {
+   "code": "G",
+   "name": "Bracket comb",
+   "menge": 3,
+   "detail": "PETG, 3 segments"
+  },
+  {
+   "code": "H",
+   "name": "GPU rest",
+   "menge": 5,
+   "detail": "PETG"
+  },
+  {
+   "code": "1",
+   "name": "ZEUS 1650R",
+   "menge": 2,
+   "detail": "Silverstone ZEUS 1650R"
+  },
+  {
+   "code": "2",
+   "name": "Mainboard",
+   "menge": 1,
+   "detail": "ASRock Rack ROMED16QM3"
+  },
+  {
+   "code": "3",
+   "name": "NH-U14S",
+   "menge": 1,
+   "detail": "Noctua NH-U14S TR4-SP3"
+  },
+  {
+   "code": "4",
+   "name": "RDIMM",
+   "menge": 8,
+   "detail": "DDR4 RDIMM"
+  },
+  {
+   "code": "5",
+   "name": "NIC 40G",
+   "menge": 1,
+   "detail": "low profile, PCIE8"
+  },
+  {
+   "code": "6",
+   "name": "Quad M.2",
+   "menge": 1,
+   "detail": "quad M.2 card + riser"
+  },
+  {
+   "code": "7",
+   "name": "C-Payne riser",
+   "menge": 6,
+   "detail": "C-Payne x8/x16 BOTTOM rev. 2 · 1 optional"
+  },
+  {
+   "code": "8",
+   "name": "RTX 4090",
+   "menge": 6,
+   "detail": "305 × 61 × 125 mm · 1 optional"
+  },
+  {
+   "code": "S",
+   "name": "SlimSAS 8i 500",
+   "menge": 14,
+   "detail": "SFF-8654, 500 mm, round · 2 optional"
+  },
+  {
+   "code": "P",
+   "name": "PSU cable",
+   "menge": 14,
+   "detail": "PSU cables + IEC plugs"
+  },
+  {
+   "code": "9",
+   "name": "Fan 120",
+   "menge": 3,
+   "detail": "120 × 120 × 25 mm"
+  },
+  {
+   "code": "10",
+   "name": "Rack ear",
+   "menge": 2,
+   "detail": "optional"
+  },
+  {
+   "code": "11",
+   "name": "GPU6 holder",
+   "menge": 1,
+   "detail": "optional"
+  },
+  {
+   "code": "K",
+   "name": "End cap",
+   "menge": 8,
+   "detail": "20 I-type slot 5"
+  },
+  {
+   "code": "N",
+   "name": "T-nut M4",
+   "menge": 188,
+   "detail": "I-type slot 5 with web (116 come with the brackets)"
+  },
+  {
+   "code": "M4",
+   "name": "M4 screws",
+   "menge": 46,
+   "detail": "DIN 7984: 12× M4×30, 26× M4×12, 8× M4×10"
+  }
+ ],
+ "dold": [
+  {
+   "menge": "4",
+   "nr": "62002-Z",
+   "name": "Aluminium extrusion 20x20 light, I-type slot 5, cut to length",
+   "laenge": "621 mm",
+   "hinweis": "corner posts"
+  },
+  {
+   "menge": "21",
+   "nr": "62002-Z",
+   "name": "Aluminium extrusion 20x20 light, I-type slot 5, cut to length",
+   "laenge": "390 mm",
+   "hinweis": "all X members"
+  },
+  {
+   "menge": "8",
+   "nr": "62002-Z",
+   "name": "Aluminium extrusion 20x20 light, I-type slot 5, cut to length",
+   "laenge": "460 mm",
+   "hinweis": "all Y members"
+  },
+  {
+   "menge": "58",
+   "nr": "61951-BS",
+   "name": "Bracket 20 I-type slot 5 incl. M4 set (2× M4×8 + 2× T-nut)",
+   "laenge": "",
+   "hinweis": "every joint"
+  },
+  {
+   "menge": "8",
+   "nr": "61302-1",
+   "name": "End cap 20 I-type slot 5",
+   "laenge": "",
+   "hinweis": "post ends"
+  },
+  {
+   "menge": "86",
+   "nr": "61326-VK",
+   "name": "T-nut with web I-type slot 5, M4",
+   "laenge": "M4",
+   "hinweis": "standoffs, holders, fans, rack ears (+ spares)"
+  },
+  {
+   "menge": "12",
+   "nr": "DIN7984-4x30",
+   "name": "DIN 7984 low-head socket screw, 8.8 zinc",
+   "laenge": "M4x30",
+   "hinweis": "front fans"
+  },
+  {
+   "menge": "26",
+   "nr": "DIN7984-4x12",
+   "name": "DIN 7984 low-head socket screw, 8.8 zinc",
+   "laenge": "M4x12",
+   "hinweis": "printed holders"
+  },
+  {
+   "menge": "8",
+   "nr": "DIN7984-4x10",
+   "name": "DIN 7984 low-head socket screw, 8.8 zinc",
+   "laenge": "M4x10",
+   "hinweis": "rack ears (optional)"
+  }
+ ],
+ "bom": [
+  {
+   "menge": 21,
+   "pn": "AL-2020-I5-390",
+   "text": "Aluminium extrusion 20x20 I-type slot 5, 390 mm"
+  },
+  {
+   "menge": 8,
+   "pn": "AL-2020-I5-460",
+   "text": "Aluminium extrusion 20x20 I-type slot 5, 460 mm"
+  },
+  {
+   "menge": 4,
+   "pn": "AL-2020-I5-621",
+   "text": "Aluminium extrusion 20x20 I-type slot 5, 621 mm (571 + 50 mm foot)"
+  },
+  {
+   "menge": 1,
+   "pn": "ASRock-ROMED16QM3",
+   "text": "ASRock Rack ROMED16QM3 (SP3, SSI-EEB), mounted rotated 180°"
+  },
+  {
+   "menge": 6,
+   "pn": "CPAYNE-X16-BOTTOM",
+   "text": "C-Payne PCIe device adapter x8/x16 BOTTOM rev. 2, 2× SlimSAS 8i, 125×30 (1 optional)"
+  },
+  {
+   "menge": 16,
+   "pn": "PRINT-STANDOFF-8x10",
+   "text": "Standoff Ø8×10, M3 heat-set insert on top (PETG)"
+  },
+  {
+   "menge": 24,
+   "pn": "PRINT-STANDOFF-8x18",
+   "text": "Riser standoff Ø8×18, M3 heat-set insert on top (PETG)"
+  },
+  {
+   "menge": 5,
+   "pn": "PRINT-GPU-REST",
+   "text": "GPU front rest, 61 mm wide (PETG)"
+  },
+  {
+   "menge": 1,
+   "pn": "PRINT-GPU6-HOLDER",
+   "text": "6th GPU holder: riser plate + bracket stop (PETG, optional)"
+  },
+  {
+   "menge": 1,
+   "pn": "PRINT-COMB-1",
+   "text": "Bracket comb segment 1, GPU1–2 (PETG)"
+  },
+  {
+   "menge": 1,
+   "pn": "PRINT-COMB-2",
+   "text": "Bracket comb segment 2, GPU3 (PETG)"
+  },
+  {
+   "menge": 1,
+   "pn": "PRINT-COMB-3",
+   "text": "Bracket comb segment 3, GPU4–5 (PETG)"
+  },
+  {
+   "menge": 1,
+   "pn": "PRINT-PSU-HOLDER-1A",
+   "text": "PSU holder, PSU 1 outer (PETG)"
+  },
+  {
+   "menge": 1,
+   "pn": "PRINT-PSU-HOLDER-1I",
+   "text": "PSU holder, PSU 1 inner (PETG)"
+  },
+  {
+   "menge": 1,
+   "pn": "PRINT-PSU-HOLDER-2A",
+   "text": "PSU holder, PSU 2 outer (PETG)"
+  },
+  {
+   "menge": 1,
+   "pn": "PRINT-PSU-HOLDER-2I",
+   "text": "PSU holder, PSU 2 inner (PETG)"
+  },
+  {
+   "menge": 1,
+   "pn": "PRINT-RACK-EAR-L",
+   "text": "19\" rack ear left, retention only (PETG, optional)"
+  },
+  {
+   "menge": 1,
+   "pn": "PRINT-RACK-EAR-R",
+   "text": "19\" rack ear right, retention only (PETG, optional)"
+  },
+  {
+   "menge": 3,
+   "pn": "FAN-120x25",
+   "text": "Fan 120×120×25"
+  },
+  {
+   "menge": 6,
+   "pn": "GPU-RTX4090-3S",
+   "text": "NVIDIA RTX 4090, 3-slot, 305 mm (1 optional as 6th GPU)"
+  },
+  {
+   "menge": 2,
+   "pn": "IEC-C13-PLUG",
+   "text": "IEC C13 power cord plug (placeholder)"
+  },
+  {
+   "menge": 1,
+   "pn": "NIC-40G",
+   "text": "40G NIC, low profile, in PCIE8 (placeholder)"
+  },
+  {
+   "menge": 1,
+   "pn": "Noctua-NH-U14S-TR4-SP3",
+   "text": "Noctua NH-U14S TR4-SP3, rotated 90°, airflow to the right"
+  },
+  {
+   "menge": 6,
+   "pn": "PSU-CABLE-12V2X6",
+   "text": "12V-2x6 cable from PSU (1 optional)"
+  },
+  {
+   "menge": 5,
+   "pn": "PSU-CABLE-PCIE",
+   "text": "PCIe 6+2 cable to riser"
+  },
+  {
+   "menge": 1,
+   "pn": "PSU-CABLE-ATX24",
+   "text": "24-pin ATX cable"
+  },
+  {
+   "menge": 1,
+   "pn": "PSU-CABLE-EPS1",
+   "text": "EPS 4+4 CPU cable 1"
+  },
+  {
+   "menge": 1,
+   "pn": "PSU-CABLE-EPS2",
+   "text": "EPS 4+4 CPU cable 2"
+  },
+  {
+   "menge": 1,
+   "pn": "QUAD-M2",
+   "text": "Quad M.2 card (placeholder, alternative to 6th GPU)"
+  },
+  {
+   "menge": 8,
+   "pn": "RDIMM-DDR4",
+   "text": "DDR4 RDIMM, outer slot of each channel"
+  },
+  {
+   "menge": 1,
+   "pn": "RISER-M2",
+   "text": "Riser board for the quad M.2 card (placeholder)"
+  },
+  {
+   "menge": 14,
+   "pn": "SLIMSAS-8I-500",
+   "text": "SlimSAS 8i (SFF-8654) cable 500 mm, round (10 for GPU1–5, 2 quad M.2, 2 optional GPU6)"
+  },
+  {
+   "menge": 2,
+   "pn": "SST-ZU1650R",
+   "text": "Silverstone ZEUS 1650R Titanium, upright, inlet down, fan to the rear"
+  },
+  {
+   "menge": 58,
+   "pn": "BRACKET-2020-I5",
+   "text": "Corner bracket 20x20x20, I-type slot 5, with M4 screw + T-nut set"
+  }
+ ],
+ "pruefen": [
+  {
+   "titel": "SlimSAS plug under the neighbouring riser",
+   "text": "After its 45 mm rigid plug, each cable passes just under the edge of the riser to its left (0.5 mm overlap in the model; risers are 47.8 mm apart). Check with the real plug before tightening; if needed raise the neighbouring riser by 2–3 mm (8×20 standoffs)."
+  },
+  {
+   "titel": "Left-side overhang",
+   "text": "The two GPU1 cables (A1/A2) stick out about 15 mm on the left. In a 19\" rack (450 mm clear width) shift the case slightly to the right."
+  },
+  {
+   "titel": "Standoff fixing",
+   "text": "How the printed standoffs are held on the T-nut (screw from below, pressed-in nut or glue) is not designed yet."
+  },
+  {
+   "titel": "Riser dimensions",
+   "text": "Position of the 6-pin socket and the mounting holes on the C-Payne riser are placeholders. Riser 5 overhangs the right inner frame edge by 4 mm."
+  },
+  {
+   "titel": "PSU sockets",
+   "text": "Per ZEUS 1650R in use at the same time: PSU 1 24-pin + 2× EPS + 3× 12V-2x6 + 3× PCIe; PSU 2 3× 12V-2x6 + 2× PCIe. Check the modular socket layout in the manual (the 12V-2x6 adapter cable uses two sockets)."
+  },
+  {
+   "titel": "PSU 1 load",
+   "text": "PSU 1 carries CPU, board and three RTX 4090 (up to approx. 1750 W peak). Set a GPU power limit of approx. 350–400 W."
+  }
+ ],
+ "werkzeug": [
+  {
+   "icon": "2.5",
+   "name": "Hex key 2.5 mm",
+   "wofuer": "all DIN 7984 M4 screws (brackets, holders, fans)"
+  },
+  {
+   "icon": "PH2",
+   "name": "Phillips PH2",
+   "wofuer": "PSUs, slot brackets, cooler mount"
+  },
+  {
+   "icon": "PH1",
+   "name": "Phillips PH1 / Torx T8",
+   "wofuer": "M3 on board and risers, M.2"
+  },
+  {
+   "icon": "°C",
+   "name": "Soldering iron",
+   "wofuer": "M3 heat-set inserts in the standoffs (approx. 220 °C)"
+  },
+  {
+   "icon": "90°",
+   "name": "Try square",
+   "wofuer": "check every corner before tightening"
+  },
+  {
+   "icon": "mm",
+   "name": "Tape measure / calipers",
+   "wofuer": "diagonals, distances"
+  },
+  {
+   "icon": "RM",
+   "name": "Rubber mallet",
+   "wofuer": "gently align extrusions"
+  },
+  {
+   "icon": "✂",
+   "name": "Side cutters",
+   "wofuer": "trim cable ties"
+  },
+  {
+   "icon": "ESD",
+   "name": "ESD wrist strap",
+   "wofuer": "from mainboard installation on"
+  }
+ ],
+ "material": [
+  {
+   "menge": "40×",
+   "name": "Heat-set insert M3 (Ø4, 5.7 mm)",
+   "wofuer": "16 standoffs 8×10, 24 standoffs 8×18"
+  },
+  {
+   "menge": "40×",
+   "name": "Socket head screw M3×6",
+   "wofuer": "mainboard, M.2 riser, GPU risers"
+  },
+  {
+   "menge": "50×",
+   "name": "Cable ties 2.5 × 100 / hook-and-loop",
+   "wofuer": "SlimSAS and power cables"
+  },
+  {
+   "menge": "1×",
+   "name": "Thermal paste (included with NH-U14S)",
+   "wofuer": "CPU"
+  },
+  {
+   "menge": "1×",
+   "name": "Isopropyl alcohol + lint-free cloth",
+   "wofuer": "CPU, cooler"
+  },
+  {
+   "menge": "2×",
+   "name": "IEC C13 power cord",
+   "wofuer": "PSUs"
+  },
+  {
+   "menge": "~0.6 kg",
+   "name": "PETG filament",
+   "wofuer": "all printed parts (STL/3MF in print/)"
+  }
+ ]
+}
