@@ -1,0 +1,32 @@
+x_mm,y_mm,feature,purpose
+85.0,60.0,Ø110,fan opening 1
+32.5,7.5,Ø4.5,fan M4 (105 mm pattern)
+32.5,112.5,Ø4.5,fan M4 (105 mm pattern)
+137.5,7.5,Ø4.5,fan M4 (105 mm pattern)
+137.5,112.5,Ø4.5,fan M4 (105 mm pattern)
+215.0,60.0,Ø110,fan opening 2
+162.5,7.5,Ø4.5,fan M4 (105 mm pattern)
+162.5,112.5,Ø4.5,fan M4 (105 mm pattern)
+267.5,7.5,Ø4.5,fan M4 (105 mm pattern)
+267.5,112.5,Ø4.5,fan M4 (105 mm pattern)
+345.0,60.0,Ø110,fan opening 3
+292.5,7.5,Ø4.5,fan M4 (105 mm pattern)
+292.5,112.5,Ø4.5,fan M4 (105 mm pattern)
+397.5,7.5,Ø4.5,fan M4 (105 mm pattern)
+397.5,112.5,Ø4.5,fan M4 (105 mm pattern)
+10.0,30.0,Ø4.5,corner post M4
+420.0,30.0,Ø4.5,corner post M4
+10.0,90.0,Ø4.5,corner post M4
+420.0,90.0,Ø4.5,corner post M4
+144.0,30.0,slot 8×3,cable-tie pair (vertical cable)
+156.0,30.0,slot 8×3,cable-tie pair (vertical cable)
+144.0,90.0,slot 8×3,cable-tie pair (vertical cable)
+156.0,90.0,slot 8×3,cable-tie pair (vertical cable)
+150.0,54.0,slot 8×3,cable-tie pair (horizontal cable)
+150.0,66.0,slot 8×3,cable-tie pair (horizontal cable)
+274.0,30.0,slot 8×3,cable-tie pair (vertical cable)
+286.0,30.0,slot 8×3,cable-tie pair (vertical cable)
+274.0,90.0,slot 8×3,cable-tie pair (vertical cable)
+286.0,90.0,slot 8×3,cable-tie pair (vertical cable)
+280.0,54.0,slot 8×3,cable-tie pair (horizontal cable)
+280.0,66.0,slot 8×3,cable-tie pair (horizontal cable)

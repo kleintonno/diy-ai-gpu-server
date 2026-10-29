@@ -33,6 +33,7 @@ An open-hardware **DIY AI / LLM server case** for people who want to run **multi
 | `print/stl`, `print/3mf`, `print/step` | Every printed part, one file per part type | slicer / CAD |
 | `drawings/dxf`, `drawings/svg` | 2D views (front, left, top, iso) of the assembly and the frame | DXF: LibreCAD, QCAD, AutoCAD, DraftSight, FreeCAD · SVG: browser, Inkscape |
 | `bom/` | Bill of materials, cut list, frame hardware, T-nuts per extrusion (CSV) | spreadsheet |
+| `sheet-metal/` | **Untested** flat plates (base plate, stackable fan panels) as DXF for laser / waterjet / CNC, plus SVG, hole tables, STEP | DXF: any CAM / laser software, LibreCAD, QCAD · STEP: any CAD |
 | `docs/assembly-guide/` | Illustrated step-by-step **assembly guide (PDF)** + Typst source | PDF reader |
 | `images/` | Renderings | — |
 
@@ -91,7 +92,7 @@ These are placeholders in the model; please check them against your real hardwar
 - [ ] **Fan layout:** optimise fan positions and the number of fans for the GPU level
 - [ ] **Photos of the finished rig**
 - [ ] **Measurements:** GPU/CPU temperatures, fan speeds, noise and power draw under sustained AI/LLM load
-- [ ] **Sheet-metal variant:** flat laser/waterjet-cut plates (base plate + stackable fan panels) as an alternative to some of the inner extrusions
+- [ ] **Sheet-metal variant:** flat laser/waterjet-cut plates (base plate + stackable fan panels) as an alternative to some of the inner extrusions. First draft is in [`sheet-metal/`](sheet-metal/) but has not been cut or tested yet.
 
 ## Contributing
 
