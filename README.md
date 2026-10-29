@@ -2,6 +2,9 @@
 
 An open-hardware **DIY AI / LLM server case** for people who want to run **multiple consumer graphics cards** (RTX 4090 and similar 3-slot cards) in a homelab or a 19" rack. It is built from standard **20×20 aluminium extrusion**, a few 3D-printed parts and **PCIe risers on SlimSAS cables**. Every GPU gets a full x16/x8 link and a clean airflow path, and the whole thing fits into **14U**.
 
+> [!WARNING]
+> **Very early stage.** This design has not been built yet. The first physical build and test assembly will happen over the coming weeks, so expect changes to dimensions, parts and cable routes. Please don't order parts based on this version unless you're happy to adapt things yourself.
+
 ![Complete build](images/r01-complete-iso-front-left.png)
 
 | | |
@@ -80,6 +83,15 @@ These are placeholders in the model; please check them against your real hardwar
 - **Riser details:** the 6-pin socket position and the mounting holes of the C-Payne riser are placeholders.
 - **Power budget:** PSU 1 feeds CPU, board and three RTX 4090s. A GPU power limit of about 350–400 W is recommended.
 - **Language of the source:** component names inside the CAD source are German. Pull requests with English naming are welcome.
+
+## Roadmap
+
+- [ ] **First build:** assemble the frame and check the fit (risers, SlimSAS routing, PSUs, standoffs)
+- [ ] **Fixes from the build:** update the CAD, BOM and assembly guide with whatever the real build shows
+- [ ] **Fan layout:** optimise fan positions and the number of fans for the GPU level
+- [ ] **Photos of the finished rig**
+- [ ] **Measurements:** GPU/CPU temperatures, fan speeds, noise and power draw under sustained AI/LLM load
+- [ ] **Sheet-metal variant:** flat laser/waterjet-cut plates (base plate + stackable fan panels) as an alternative to some of the inner extrusions
 
 ## Contributing
 
