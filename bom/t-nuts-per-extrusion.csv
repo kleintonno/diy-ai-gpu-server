@@ -3,10 +3,10 @@ Base front,2
 Base left,8
 Base rear,2
 Base right,8
-Board rail 1,5
-Board rail 2,5
-Board rail 3,7
-Board rail 4,7
+Board rail 1,6
+Board rail 2,2
+Board rail 3,8
+Board rail 4,8
 Front fan rail lower,8
 Front fan rail upper,8
 GPU bracket rail,2
@@ -19,7 +19,6 @@ Mid frame rear,2
 Mid frame right,5
 NIC rail,2
 PSU rail 1,10
-PSU rail 2,2
 Post S1,10
 Post S2,10
 Post S3,9

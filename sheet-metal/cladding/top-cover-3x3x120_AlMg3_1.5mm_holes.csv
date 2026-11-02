@@ -1,0 +1,55 @@
+x_mm,y_mm,feature,purpose
+60.0,10.0,Ø4.5,frame M4 (drop-in T-nut)
+60.0,490.0,Ø4.5,frame M4 (drop-in T-nut)
+160.0,10.0,Ø4.5,frame M4 (drop-in T-nut)
+160.0,490.0,Ø4.5,frame M4 (drop-in T-nut)
+270.0,10.0,Ø4.5,frame M4 (drop-in T-nut)
+270.0,490.0,Ø4.5,frame M4 (drop-in T-nut)
+370.0,10.0,Ø4.5,frame M4 (drop-in T-nut)
+370.0,490.0,Ø4.5,frame M4 (drop-in T-nut)
+10.0,60.0,Ø4.5,frame M4 (drop-in T-nut)
+10.0,130.0,Ø4.5,frame M4 (drop-in T-nut)
+10.0,250.0,Ø4.5,frame M4 (drop-in T-nut)
+10.0,370.0,Ø4.5,frame M4 (drop-in T-nut)
+10.0,440.0,Ø4.5,frame M4 (drop-in T-nut)
+420.0,60.0,Ø4.5,frame M4 (drop-in T-nut)
+420.0,130.0,Ø4.5,frame M4 (drop-in T-nut)
+420.0,250.0,Ø4.5,frame M4 (drop-in T-nut)
+420.0,370.0,Ø4.5,frame M4 (drop-in T-nut)
+420.0,440.0,Ø4.5,frame M4 (drop-in T-nut)
+32.5,39.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 92)"
+32.5,144.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 92)"
+137.5,39.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 92)"
+137.5,144.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 92)"
+162.5,39.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 92)"
+162.5,144.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 92)"
+267.5,39.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 92)"
+267.5,144.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 92)"
+292.5,39.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 92)"
+292.5,144.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 92)"
+397.5,39.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 92)"
+397.5,144.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 92)"
+32.5,197.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 250)"
+32.5,302.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 250)"
+137.5,197.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 250)"
+137.5,302.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 250)"
+162.5,197.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 250)"
+162.5,302.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 250)"
+267.5,197.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 250)"
+267.5,302.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 250)"
+292.5,197.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 250)"
+292.5,302.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 250)"
+397.5,197.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 250)"
+397.5,302.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 250)"
+32.5,355.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 408)"
+32.5,460.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 408)"
+137.5,355.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 408)"
+137.5,460.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 408)"
+162.5,355.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 408)"
+162.5,460.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 408)"
+267.5,355.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 408)"
+267.5,460.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 408)"
+292.5,355.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 408)"
+292.5,460.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 408)"
+397.5,355.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 408)"
+397.5,460.5,Ø4.5,"fan 120 M4 (105 mm pattern, row Y 408)"

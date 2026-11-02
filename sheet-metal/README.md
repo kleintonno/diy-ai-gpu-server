@@ -8,7 +8,7 @@ Flat plates as an alternative to some of the inner aluminium extrusions. The out
 | File | Part | Qty | Size | Weight |
 |---|---|---:|---|---|
 | `base-plate_AlMg3_3mm.*` | **Base plate** for mainboard and both PSUs. It sits on the base frame and replaces 4 inner extrusions, the printed PSU holders and the printed board standoffs. | 1 | 430 × 500 mm | ~1.6 kg |
-| `fan-panel-120_AlMg3_3mm.*` | **Fan panel** for 3 × 120 mm fans. It screws to the corner posts only, so panels **stack on a 120 mm grid**: two panels fill the GPU level (6 fans). It has paired cable-tie slots. | 2 | 430 × 120 mm | ~0.18 kg |
+| `fan-panel-120_AlMg3_3mm.*` | **Fan panel** for 3 × 120 mm fans. It screws to the corner posts only, so panels **stack on a 120 mm grid**: two panels fill the GPU level (6 fans). Instead of round openings it has a **honeycomb field** (5 mm hexagons, 2 mm web, 685 cells) inside the rectangle of the outer fan screw holes, plus paired cable-tie slots. | 2 | 430 × 120 mm | ~0.18 kg |
 
 Each part comes as:
 
@@ -28,18 +28,20 @@ Each part comes as:
   - Ø4.0 for #6-32 (PSU)
   - slots 20 × 3.4 mm (M.2 riser)
   - cable-tie slots 3 × 8 mm in pairs, 12 mm apart
+- **Honeycomb (fan panel):** the 2 mm web is thinner than the 3 mm sheet. Ask your cutting service whether that works; otherwise widen the web to 3 mm (`honeycomb(..., w=3.0)` for the fan panel in the generator) or cut the fan panel from 2 mm sheet.
 - **Tolerance and finish:** ±0.2 mm is fine. Deburr; anodising is optional.
 
-## How it changes the build (vs. the extrusion-only version)
+## How it changes the build (vs. the current extrusion-only version)
 
-- **Extrusions and brackets:** −6 × 390 mm extrusions (board rails 1/2/4, PSU rail 2, both front fan rails) and −12 corner brackets.
+- **Extrusions and brackets:** −5 × 390 mm extrusions (board rails 1/2/4 and both front fan rails) and −10 corner brackets. The base plate carries board and PSUs on its own support rails (see next point), so the board and PSU rail positions of the main design don't apply here.
 - **Support rails:** the two remaining support rails under the base plate move to Y 180 and Y 370, so all screws from below stay reachable.
-- **Printed parts:** −16 printed standoffs 8×10, −4 printed PSU holders. The 6th-GPU holder shrinks to a small bracket stop.
+- **Printed parts:** no mainboard tray and no PSU feet; the 4 printed M.2-riser standoffs are replaced by brass standoffs too. The 6th-GPU holder shrinks to a small bracket stop.
 - **Standoffs:** +16 M3 × 10 mm brass standoffs (female/female) with M3×6 screws from below.
 - **Panels to frame:** +30 M4×8 (DIN 7984) with T-nuts: 22 for the base plate, 4 per fan panel.
 - **Fans:** fans are mounted to the panels with M4×35 + nut.
 - **Top-front brackets:** the two front corner brackets of the top frame move from below the front member into the horizontal top-frame corner (front member to side member), so they don't block the upper fan row. Mainboard, PSUs and the 6th GPU sit 3 mm higher; all cable routes are re-checked.
 - **PSUs:** screwed from below through the base plate with their own #6-32 screws. The large cut-out under each PSU lets the exhaust out (the ZEUS blows out of its ATX rear face, which points down) and leaves room for the power plug.
+- **Not yet carried over:** the PSU-fan fix from the main design (rear rails moved above the PSUs) is not applied to this variant yet.
 
 **Assembly order (new build only):** the one-piece base plate has to go onto the base frame **before** the posts, mid frame and top frame are joined. It does not fit through the mid-frame opening.
 
