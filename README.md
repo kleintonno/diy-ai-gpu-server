@@ -61,6 +61,7 @@ PETG. Parts are exported in their **assembly position**, so rotate them flat on 
 |---|---|---|---|
 | `third-party/dockguy-modular-mainboard-tray/` | 1 set (6 parts) | SSI-EEB mainboard tray, see its [README](print/third-party/dockguy-modular-mainboard-tray/README.md) | ready |
 | `psu-foot` | 2 | PSU foot (frame) for the upright ZEUS 1650R | ready, check the hole pattern |
+| `front-fan-holder` | 3 | Holder for one 120 mm front fan, hooks over the upper front fan rail | ready |
 | `standoff-8x10` | 4 | M.2 riser standoff, M3 heat-set insert | geometry ready, fixing open |
 | `standoff-8x18-riser` | 20 (+4 for 6th GPU) | GPU riser standoff, M3 heat-set insert | geometry ready, fixing open |
 | `gpu-front-rest` | 5 | GPU front rest on the front support | **placeholder** |
@@ -84,9 +85,20 @@ PETG. Parts are exported in their **assembly position**, so rotate them flat on 
 - **Hole pattern:** the ATX pattern is drilled in all four possible orientations (12 bosses), because the orientation on the real ZEUS 1650R is not verified yet. Once you know yours, 8 bosses can go.
 - **Print:** top face down on the bed, no supports.
 
+### Front fan holder
+
+![Front fans on the printed holders, rails clear of the rotor](images/r23-front-fan-holders.png)
+
+- **Why:** the front fans used to be bolted straight to the two front fan rails, which needed 12 T-nuts, and the rails covered about 14 mm of the rotor at the top and bottom (≈ 17 % of the swept area).
+- **Shape:** one holder per fan. A 6 mm plate with a Ø114 opening rests against the rear faces of both rails. A hook at the top goes over the upper rail, with a 3 mm lip in front of it. The fan's weight presses the plate against the lower rail, and the lip stops it tipping back.
+- **Rails:** both front fan rails move 17.5 mm apart (lower rail Z 356.6–376.6, upper rail Z 496.6–516.6), so the clear gap between them is exactly the 120 mm fan height and the rotor is fully open.
+- **Fan to holder:** 4 standard fan screws from the front, through Ø5.2 holes, with the heads (Ø7) sunk into 3 mm counterbores. Each holder can slide sideways on the rails; add a cable tie around the lower rail if you want it fixed.
+- **Fan position:** 6 mm further back than before (Y 26–51), leaving 14 mm to the GPUs.
+- **Print:** fan side of the plate down on the bed, the hook points up. Only the lip overhangs (3 mm), no supports.
+
 ## Frame hardware
 
-See [`bom/frame-hardware.csv`](bom/frame-hardware.csv). The article numbers are from one example supplier (Dold Mechatronik, Germany); any 20×20 I-type slot 5 system works. **Important:** with I-type slot 5 the T-nuts can **not** be inserted afterwards, so slide them in before joining. [`bom/t-nuts-per-extrusion.csv`](bom/t-nuts-per-extrusion.csv) lists how many go into each extrusion (186 in total, 112 of them come with the brackets). If one is missing later, there are no drop-in hammer nuts for I-type slot 5 at the example supplier, so check this list carefully before joining.
+See [`bom/frame-hardware.csv`](bom/frame-hardware.csv). The article numbers are from one example supplier (Dold Mechatronik, Germany); any 20×20 I-type slot 5 system works. **Important:** with I-type slot 5 the T-nuts can **not** be inserted afterwards, so slide them in before joining. [`bom/t-nuts-per-extrusion.csv`](bom/t-nuts-per-extrusion.csv) lists how many go into each extrusion (174 in total, 112 of them come with the brackets). If one is missing later, there are no drop-in hammer nuts for I-type slot 5 at the example supplier, so check this list carefully before joining.
 
 ## Status / known limitations
 
@@ -115,7 +127,7 @@ The frame changes below were made against the real first frame. None of the part
    - PSU rail 1 moves 20 mm forward (Y 374–394), in front of the PSUs, and its brackets go to its rear side.
    - PSU rail 2 is removed, which saves 1 × 390 mm and 2 brackets. The PSUs stand 6 mm higher.
 4. **PSU fans free.** The ZEUS fan is on the rear face. The two rear rails ran across it at Z 60–80 and Z 180–200. Both now sit above the PSUs, at Z 210–230 and Z 250–270, below the mid-frame brackets.
-5. **Fans:** the front fans are Arctic P12 Pro PST (PWM, daisy-chain capable).
+5. **Front fans:** Arctic P12 Pro PST (PWM, daisy-chain capable). They now hang on three printed fan holders instead of being bolted to the rails, and the two front fan rails move 17.5 mm apart so they no longer cover the rotor. This saves 12 T-nuts and the 12 × M4×30.
 6. **Sheet-metal fan panel:** the three Ø110 openings are replaced by a honeycomb field (5 mm hexagons, 2 mm web) inside the rectangle of the outer fan screw holes.
 7. **New, untested:** a full cladding variant with a 15-fan airflow layout, in [`sheet-metal/cladding/`](sheet-metal/cladding/).
 

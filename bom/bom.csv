@@ -12,6 +12,7 @@ qty,part_number,description
 1,PRINT-COMB-2,"Bracket comb segment 2, GPU3 (PETG)"
 1,PRINT-COMB-3,"Bracket comb segment 3, GPU4–5 (PETG)"
 2,PRINT-PSU-FOOT,"PSU foot frame for an upright ATX PSU, leaves the PSU bottom open (PETG)"
+3,PRINT-FRONT-FAN-HOLDER,"Front fan holder, hooks over the upper front fan rail, 120 mm fan, no T-nuts (PETG)"
 1,DOCKGUY-EEB-TRAY-ITX,"Mainboard tray part itx (third party: DockGuy, BSD licence, see print/third-party)"
 1,DOCKGUY-EEB-TRAY-DTX,"Mainboard tray part dtx (third party: DockGuy, BSD licence, see print/third-party)"
 1,DOCKGUY-EEB-TRAY-ATX1,"Mainboard tray part atx1 (third party: DockGuy, BSD licence, see print/third-party)"
